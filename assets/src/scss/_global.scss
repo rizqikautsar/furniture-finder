@@ -1,0 +1,93 @@
+*{
+	@include box-sizing(border-box);
+	&:before,
+	&:after{
+		// content: "";
+	}
+}
+a{
+	&:focus{
+		outline: 0;
+	}
+}
+html{
+	font-size: $base-font-size;
+	// overflow-x: hidden;
+	height: 100%;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+body{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height: 100%;
+    font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+iframe{
+	max-width: 100%;
+}
+button,
+textarea,
+input,
+select{
+	outline: none;
+}
+img.align{
+	&--left{
+		float: left;
+		text-align: left;
+		margin-right: 20px;
+	}
+	&--center{
+		text-align: center;
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	&--right{
+		text-align: right;
+		float: right;
+		margin-left: 20px;
+	}
+}
+
+.list{
+	&--none{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	&--decimal{
+		list-style-type: decimal;
+	}
+	&--disc{
+		list-style-type: disc;
+	}
+}
+
+.text{
+	&--uppercase{
+		text-transform: uppercase;
+	}
+	&--lowercase{
+		text-transform: lowercase;
+	}
+	&--capitalize{
+		text-transform: capitalize;
+	}
+}
+
+.float{
+	&--left{
+		float: left;
+	}
+	&--right{
+		float: right;
+	}
+	&--none{
+		float: none !important;
+	}
+}
+

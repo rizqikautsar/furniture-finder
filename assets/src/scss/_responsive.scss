@@ -1,0 +1,143 @@
+@media (min-width: 1200px){
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+
+@media (max-width: 992px){
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+
+@media (max-width: 767px) {
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.search-wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    .search-header-wrapper{
+        padding: 30px 15px 30px;
+    }
+    .search-content-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px 0;
+        .search-content-wrapper{
+            &:nth-child(odd){
+                padding: 0;
+            }
+            &:nth-child(even){
+                padding: 0;
+            }
+            .left{
+                .product-name{
+                    @include font-size(16px);
+                }
+            }
+            .right{
+                .product-price{
+                    @include font-size(13px);
+                }
+            }
+            .product-desc{
+                @include font-size(13px);
+            }
+            .product-furniture-style{
+                @include font-size(13px);
+            }
+            .product-delivery-days{
+                @include font-size(13px);
+            }
+        }
+    }
+}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+
+@media (max-width: 480px) {
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.search-wrapper{
+    .search-content-container{
+        .search-content-wrapper{
+            .left{
+                .product-name{
+                    @include font-size(14px);
+                }
+            }
+            .right{
+                .product-price{
+                    @include font-size(13px);
+                }
+            }
+            .product-desc{
+                @include font-size(13px);
+            }
+            .product-furniture-style{
+                @include font-size(13px);
+            }
+            .product-delivery-days{
+                @include font-size(13px);
+            }
+        }
+    }
+}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */  
+}
+
+@media (max-width: 320px) {
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+
+
+////////////////IPAD
+
+@media (width: 768px) and (height: 1024px) {
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+
+@media (width: 1024px) and (height: 1366px) {
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+}

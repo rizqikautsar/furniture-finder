@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "latest",
+    "gulp": "^3.9.1",
+    "gulp-bower": "latest",
+    "gulp-concat": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-sass": "latest",
+    "gulp-sequence": "latest",
+    "gulp-uglify": "latest",
+    "gulp-connect": "latest",
+    "gulp-tinypng": "latest"
+  },
+  "dependencies": {
+    "smooth-scrollbar": "^8.3.1"
+  }
+}
