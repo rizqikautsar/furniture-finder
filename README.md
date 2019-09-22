@@ -18,29 +18,21 @@ If you have installed Gulp:
 - download all dependencies for this project by running `npm install` and `bower install`
 
 and then see this project folder structure, you will find something like this:
---index.html
+```html
+index.html
+/assets
+---/dist
+---------/css
+---------/fonts
+---------/img
+---------/js
+---------/video
+---/src
+---------/fonts
+---------/js
+---------/scss
 
---/assets
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/dist
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/css
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/fonts
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/img
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/js
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/video
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/src
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/fonts
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/js
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--/scss
+```
 
 - Change css or js only on ***src folder***. Because it will automatically replace all your css and js foder on ***dist folder***.
 
