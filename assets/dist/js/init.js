@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 /////////////////PARSE JSON FURNITURE STYLE
     $.ajax({
-        url: 'http://www.mocky.io/v2/5c9105cb330000112b649af8',
+        url: 'https://www.mocky.io/v2/5c9105cb330000112b649af8',
         dataType: 'jsonp',
         success: function(json){
             for (var counter = 0; counter < json.furniture_styles.length; counter++) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 /////////////////PARSE JSON PRODUCTS
     $.ajax({
-        url: 'http://www.mocky.io/v2/5c9105cb330000112b649af8',
+        url: 'https://www.mocky.io/v2/5c9105cb330000112b649af8',
         dataType: 'jsonp',
         success: function(json){
             for (var counter = 0; counter < json.products.length; counter++) {
